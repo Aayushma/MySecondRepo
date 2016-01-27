@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.listapplication.StyleExample">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:text="TextView1"
+        style="@style/customTextStyle"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt2"
+        android:text="TextView2"
+        style="@style/customTextStyle"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="Button1"
+        android:layout_below="@+id/txt2"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        style="@style/customButtonStyle"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="Button2"
+        android:layout_below="@id/btn1"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        style="@style/customButtonStyle"
+        android:background="@drawable/button_bg"/>
+
+</RelativeLayout>

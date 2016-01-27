@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Example_title">
+        <item>Linear Example</item>
+        <item>RelativeLayout Example</item>
+        <item>Custom Listview Example</item>
+        <item>Style Example</item>
+        <item>Login Example</item>
+        <item>SignIn Example</item>
+        <item>Custom FontIcon Example</item>
+    </array>
+
+</resources>

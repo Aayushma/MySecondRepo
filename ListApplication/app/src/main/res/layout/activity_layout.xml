@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="14dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Username"
+        android:id="@+id/textFieldUsername"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsername"
+        android:hint="Enter Username"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Password"
+        android:id="@+id/textFieldPassword"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="Enter Password"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/btnSubmit"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:id="@+id/btnExit"/>
+
+
+</LinearLayout>

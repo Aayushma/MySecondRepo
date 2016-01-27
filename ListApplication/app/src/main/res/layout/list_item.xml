@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#c0c0c0"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.dividerapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewEmp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmp">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmp"
+        android:layout_toRightOf="@+id/imageLayout"
+
+        android:paddingLeft="10dp"
+        android:text="Title"
+        android:textSize="25sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub Title"
+            android:textSize="25sp"
+            android:id="@+id/textViewSubTitle"
+            android:paddingLeft="10dp"
+            android:layout_toRightOf="@+id/imageLayout"
+            android:layout_below="@+id/textViewTitle"
+            android:paddingTop="25dp"/>
+
+
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+
+        android:layout_below="@+id/imageLayout"
+        android:background="#000" />
+
+
+</RelativeLayout>
